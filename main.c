@@ -23,7 +23,7 @@ void printArray(int array[], int size) {
 
 int main() {
     printf("Bubble sorting unsorted integer array...\n");
-    int array[] = {89, 32, 20, 113, -15};
+    int array[] = {322, -1356, 132, 87654, -4672};
     int size = sizeof(array) / sizeof(array[0]);
     printf("Unsorted array : ");
     printArray(array, size);
