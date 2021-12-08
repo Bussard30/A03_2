@@ -22,14 +22,14 @@ void printArray(int array[], int size) {
 }
 
 int main() {
-    printf("Executing bubble sort on unsorted integer array...\n");
+    printf("Bubble sorting unsorted integer array...\n");
     int array[] = {89, 32, 20, 113, -15};
     int size = sizeof(array) / sizeof(array[0]);
     printf("Unsorted array : ");
     printArray(array, size);
     printf("\n");
     bubbleSort(array, size);
-    printf("Sorted array: ");
+    printf("Result: ");
     printArray(array, size);
     return 0;
 }
